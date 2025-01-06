@@ -74,4 +74,7 @@
     "url": "https://github.com/gamakalam/Restapi-Website/issues"
   },
   "homepage": "https://github.com/gamakalam/Restapi-Website#readme"
+  "engines": {
+    "node": "22.x"
+  }
 }
