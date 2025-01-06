@@ -1,27 +1,25 @@
 {
-  "name": "api-zhirrr",
-  "version": "1.1.0",
-  "description": "Thanks To Zhir For Script",
+  "name": "Restapi-Website",
+  "version": "3.1.0",
+  "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RC047/Zhirrr-Api.git"
+    "start": "node index.js"
   },
   "keywords": [
-    "simple",
-    "api",
-    "rest",
-    "api"
+    "termux",
+    "whatsapp",
+    "2021",
+    "wabase-md",
+    "base",
+    "baileys-md",
+    "bot",
+    "bot-md",
+    "multi-device"
   ],
-  "author": "RC047",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Zhirrr/Zhirrr-Api/issues"
-  },
+  "author": "Dika Ardnt.",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "brainly-scraper-v2": "^1.1.2",
@@ -65,5 +63,16 @@
     "@bochilteam/scraper": "^5.0.1",
     "mongoose": "^8.3.1"
   },
-  "homepage": "https://github.com/Zhirrr/Zhirrr-Api#readme"
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamakalam/Restapi-Website"
+  },
+  "bugs": {
+    "url": "https://github.com/gamakalam/Restapi-Website/issues"
+  },
+  "homepage": "https://github.com/gamakalam/Restapi-Website#readme"
 }
