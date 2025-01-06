@@ -1,8 +1,5 @@
 {
   "name": "Restapi-Website",
-  "engines": {
-    "node": "22.11.x"
-  }
   "version": "3.1.0",
   "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
