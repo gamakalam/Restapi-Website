@@ -7,6 +7,7 @@ var { color } = require('./lib/color.js')
 var mainrouter = require('./routes/main'),
     apirouter = require('./routes/api')
 
+
 const mongoose = require('mongoose');
 // Koneksi ke MongoDB
 mongoose.connect('mongodb+srv://murafulan:lelang18@cluster0.qblcl.mongodb.net/visitor-count?retryWrites=true&w=majority&appName=Cluster0', {
@@ -23,6 +24,7 @@ mongoose.connect('mongodb+srv://murafulan:lelang18@cluster0.qblcl.mongodb.net/vi
 var app = express()
 app.enable('trust proxy');
 app.set("json spaces",2)
+app.get("/favicon.ico", (req, res) => res.status(204)); // Kirim respons kosong
 app.use(cors())
 app.use(secure)
 app.use(express.static("public"))
