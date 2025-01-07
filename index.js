@@ -7,6 +7,11 @@ var { color } = require('./lib/color.js')
 var mainrouter = require('./routes/main'),
     apirouter = require('./routes/api')
 
+const express = require("express");
+const app = express();
+
+app.get("/favicon.ico", (req, res) => res.status(204)); // Kirim respons kosong
+
 const mongoose = require('mongoose');
 // Koneksi ke MongoDB
 mongoose.connect('mongodb+srv://murafulan:lelang18@cluster0.qblcl.mongodb.net/visitor-count?retryWrites=true&w=majority&appName=Cluster0', {
