@@ -23,7 +23,7 @@
     "chalk": "^5.4.1",
     "chall": "^1.0.2",
     "cheerio": "^1.0.0",
-    "chlak": "^0.0.1-security",
+    "chlak": "^4.1.2",
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "file-type": "^19.6.0",
